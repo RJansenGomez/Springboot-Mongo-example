@@ -1,0 +1,12 @@
+version: '3.1'
+services:
+  mongodb_container:
+    image: mongo:latest
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=test-mongo
+      - MONGO_INITDB_DATABASE=test-mongoDB
+      - MONGO_INITDB_ROOT_PASSWORD=test-mongo
+    ports:
+      - 27021:27017
+    volumes:
+      - mongodb_data_container:/data/db

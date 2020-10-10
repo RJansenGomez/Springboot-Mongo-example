@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<meta http-equiv="x-ua-compatible" content="IE=edge"/>
+<title>Test results - Class MongoComponentTest</title>
+<link href="../css/base-style.css" rel="stylesheet" type="text/css"/>
+<link href="../css/style.css" rel="stylesheet" type="text/css"/>
+<script src="../js/report.js" type="text/javascript"></script>
+</head>
+<body>
+<div id="content">
+<h1>Class MongoComponentTest</h1>
+<div class="breadcrumbs">
+<a href="../index.html">all</a> &gt; 
+<a href="../packages/default-package.html">default-package</a> &gt; MongoComponentTest</div>
+<div id="summary">
+<table>
+<tr>
+<td>
+<div class="summaryGroup">
+<table>
+<tr>
+<td>
+<div class="infoBox" id="tests">
+<div class="counter">8</div>
+<p>tests</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="failures">
+<div class="counter">0</div>
+<p>failures</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="ignored">
+<div class="counter">0</div>
+<p>ignored</p>
+</div>
+</td>
+<td>
+<div class="infoBox" id="duration">
+<div class="counter">0.861s</div>
+<p>duration</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+</td>
+<td>
+<div class="infoBox success" id="successRate">
+<div class="percent">100%</div>
+<p>successful</p>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div id="tabs">
+<ul class="tabLinks">
+<li>
+<a href="#tab0">Tests</a>
+</li>
+<li>
+<a href="#tab1">Standard output</a>
+</li>
+</ul>
+<div id="tab0" class="tab">
+<h2>Tests</h2>
+<table>
+<thead>
+<tr>
+<th>Test</th>
+<th>Method name</th>
+<th>Duration</th>
+<th>Result</th>
+</tr>
+</thead>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_ok()</td>
+<td class="success">0.016s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok()</td>
+<td class="success">0.045s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_date_filter()</td>
+<td class="success">0.059s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_field1_filter()</td>
+<td class="success">0.066s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_id_filter()</td>
+<td class="success">0.044s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_mix_filter()</td>
+<td class="success">0.048s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_number_filter()</td>
+<td class="success">0.063s</td>
+<td class="success">passed</td>
+</tr>
+<tr>
+<td class="success">Example Test ok</td>
+<td class="success">test_search_ok_number_page2_filter()</td>
+<td class="success">0.520s</td>
+<td class="success">passed</td>
+</tr>
+</table>
+</div>
+<div id="tab1" class="tab">
+<h2>Standard output</h2>
+<span class="code">
+<pre>02:45:50.046 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+02:45:50.052 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+02:45:50.064 [Test worker] DEBUG org.springframework.test.context.BootstrapUtils - Instantiating TestContextBootstrapper for test class [MongoComponentTest] from class [org.springframework.boot.test.context.SpringBootTestContextBootstrapper]
+02:45:50.078 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [MongoComponentTest]: class path resource [MongoComponentTest-context.xml] does not exist
+02:45:50.079 [Test worker] DEBUG org.springframework.test.context.support.AbstractContextLoader - Did not detect default resource location for test class [MongoComponentTest]: class path resource [MongoComponentTestContext.groovy] does not exist
+02:45:50.079 [Test worker] INFO org.springframework.test.context.support.AbstractContextLoader - Could not detect default resource locations for test class [MongoComponentTest]: no resource found for suffixes {-context.xml, Context.groovy}.
+02:45:50.106 [Test worker] DEBUG org.springframework.test.context.support.ActiveProfilesUtils - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [MongoComponentTest]
+02:45:50.194 [Test worker] DEBUG org.springframework.boot.test.context.SpringBootTestContextBootstrapper - @TestExecutionListeners is not present for class [MongoComponentTest]: using defaults.
+02:45:50.195 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+02:45:50.203 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@55ac58a3, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@17a766d, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@599e57e7, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@2aafad9b, org.springframework.test.context.support.DirtiesContextTestExecutionListener@1d71812d, org.springframework.test.context.transaction.TransactionalTestExecutionListener@4fea45f0, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@64601285, org.springframework.test.context.event.EventPublishingTestExecutionListener@33f4a8e7, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@229d3f5d, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@3fc53b3b, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@5b55e27c, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4d70da61, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@6dc6345]
+02:45:50.217 [Test worker] DEBUG org.springframework.test.context.support.TestPropertySourceUtils - Adding inlined properties to environment: {spring.jmx.enabled=false, org.springframework.boot.test.context.SpringBootTestContextBootstrapper=true, server.port=0}
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v2.2.5.RELEASE)
+
+2020-10-10 02:45:50.540  INFO 26053 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Loaded org.testcontainers.dockerclient.EnvironmentAndSystemPropertyClientProviderStrategy from ~/.testcontainers.properties, will try it first
+2020-10-10 02:45:50.837  INFO 26053 --- [    Test worker] tAndSystemPropertyClientProviderStrategy : Found docker client settings from environment
+2020-10-10 02:45:50.837  INFO 26053 --- [    Test worker] o.t.d.DockerClientProviderStrategy       : Found Docker environment with Environment variables, system properties and defaults. Resolved dockerHost=unix:///var/run/docker.sock
+2020-10-10 02:45:50.936  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : Docker host IP address is localhost
+2020-10-10 02:45:50.958  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : Connected to docker: 
+  Server Version: 19.03.5
+  API Version: 1.40
+  Operating System: Linux Mint 19.3
+  Total Memory: 15882 MB
+2020-10-10 02:45:50.974  WARN 26053 --- [    Test worker] o.t.utility.RegistryAuthLocator          : Failure when attempting to lookup auth config (dockerImageName: quay.io/testcontainers/ryuk:0.2.3, configFile: /home/ramai/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/ramai/.docker/config.json (No such file or directory)
+2020-10-10 02:45:51.777  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : Ryuk started - will monitor and terminate Testcontainers containers on JVM exit
+2020-10-10 02:45:51.777  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : Checking the system...
+2020-10-10 02:45:51.777  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker server version should be at least 1.6.0
+2020-10-10 02:45:51.955  INFO 26053 --- [    Test worker] org.testcontainers.DockerClientFactory   : ✔︎ Docker environment should have more than 2GB free disk space
+2020-10-10 02:45:51.962  INFO 26053 --- [    Test worker] ?? [mongo:latest]                        : Creating container for image: mongo:latest
+2020-10-10 02:45:51.962  WARN 26053 --- [    Test worker] o.t.utility.RegistryAuthLocator          : Failure when attempting to lookup auth config (dockerImageName: mongo:latest, configFile: /home/ramai/.docker/config.json. Falling back to docker-java default behaviour. Exception message: /home/ramai/.docker/config.json (No such file or directory)
+2020-10-10 02:45:52.039  INFO 26053 --- [    Test worker] ?? [mongo:latest]                        : Starting container with ID: 0bd5e60317236f3455e30e7d24d6410db0ea5c5d8d7554caa13caec9d43340c5
+2020-10-10 02:45:52.482  INFO 26053 --- [    Test worker] ?? [mongo:latest]                        : Container mongo:latest is starting: 0bd5e60317236f3455e30e7d24d6410db0ea5c5d8d7554caa13caec9d43340c5
+2020-10-10 02:45:52.489  INFO 26053 --- [    Test worker] o.t.c.wait.strategy.HttpWaitStrategy     : /naughty_ride: Waiting for 120 seconds for URL: http://localhost:32825/test
+2020-10-10 02:45:53.499  INFO 26053 --- [    Test worker] ?? [mongo:latest]                        : Container mongo:latest started in PT2.966736S
+2020-10-10 02:45:53.526  INFO 26053 --- [    Test worker] MongoComponentTest                       : Starting MongoComponentTest on ramai-PC with PID 26053 (started by ramai in /home/ramai/IdeaProjects/MongoDBExample)
+2020-10-10 02:45:53.529  INFO 26053 --- [    Test worker] MongoComponentTest                       : No active profile set, falling back to default profiles: default
+2020-10-10 02:45:53.995  INFO 26053 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data MongoDB repositories in DEFAULT mode.
+2020-10-10 02:45:54.030  INFO 26053 --- [    Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 32ms. Found 1 MongoDB repository interfaces.
+2020-10-10 02:45:54.405  INFO 26053 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2020-10-10 02:45:54.412  INFO 26053 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-10-10 02:45:54.413  INFO 26053 --- [    Test worker] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-10-10 02:45:54.470  INFO 26053 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-10-10 02:45:54.470  INFO 26053 --- [    Test worker] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 919 ms
+2020-10-10 02:45:54.640  INFO 26053 --- [    Test worker] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[localhost:32825], mode=MULTIPLE, requiredClusterType=UNKNOWN, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500}
+2020-10-10 02:45:54.640  INFO 26053 --- [    Test worker] org.mongodb.driver.cluster               : Adding discovered server localhost:32825 to client view of cluster
+2020-10-10 02:45:54.672  INFO 26053 --- [localhost:32825] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:1, serverValue:2}] to localhost:32825
+2020-10-10 02:45:54.675  INFO 26053 --- [localhost:32825] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=localhost:32825, type=STANDALONE, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 6]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=1834558}
+2020-10-10 02:45:54.676  INFO 26053 --- [localhost:32825] org.mongodb.driver.cluster               : Discovered cluster type of STANDALONE
+2020-10-10 02:45:55.133  INFO 26053 --- [    Test worker] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-10-10 02:45:55.309  INFO 26053 --- [    Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2020-10-10 02:45:55.359  INFO 26053 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 38637 (http) with context path ''
+2020-10-10 02:45:55.361  INFO 26053 --- [    Test worker] MongoComponentTest                       : Started MongoComponentTest in 5.141 seconds (JVM running for 5.83)
+2020-10-10 02:45:55.681  INFO 26053 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-10-10 02:45:55.681  INFO 26053 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-10-10 02:45:55.691  INFO 26053 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 9 ms
+2020-10-10 02:45:55.733 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.750  INFO 26053 --- [o-auto-1-exec-1] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:2, serverValue:3}] to localhost:32825
+2020-10-10 02:45:55.781 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.783 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.784 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.786 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.787 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.789 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.790 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.792 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.793 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.795 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.797 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.798 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.800 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.801 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.803 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.805 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.806 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.807 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.809 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.810 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.811 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.813 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.814 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.815 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.816 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.818 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.819 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.820 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.822 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.852 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:55.871 DEBUG 26053 --- [o-auto-1-exec-1] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} in collection: table_test
+2020-10-10 02:45:55.914 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:55.917 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} in collection: table_test
+2020-10-10 02:45:55.934 DEBUG 26053 --- [o-auto-1-exec-2] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.943 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.945 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.946 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.948 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.949 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.951 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.952 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.953 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.954 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.956 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.958 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.959 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.961 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.963 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.964 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.966 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.968 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.970 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.972 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.973 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.974 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.976 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.977 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.979 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.980 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.981 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.983 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.984 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.986 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.987 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:55.989 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:55.991 DEBUG 26053 --- [o-auto-1-exec-3] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} in collection: table_test
+2020-10-10 02:45:55.997 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.000 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}} in collection: table_test
+2020-10-10 02:45:56.007 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.008 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.010 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.011 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.013 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.014 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.016 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.029 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.030 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.032 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.033 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.034 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.036 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.037 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.038 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.039 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.041 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.042 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.043 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.045 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.046 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.047 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.049 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.050 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.051 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.052 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.054 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.055 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.056 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.057 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.060 DEBUG 26053 --- [o-auto-1-exec-4] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}]} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.065 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}]} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.067 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}]} in collection: table_test
+2020-10-10 02:45:56.073 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.075 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.076 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.077 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.079 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.080 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.083 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.085 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.086 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.087 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.090 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.092 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.093 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.094 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.095 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.097 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.098 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.100 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.102 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.103 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.104 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.105 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.106 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.108 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.109 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.110 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.112 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.113 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.114 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.115 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.117 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}], &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}, &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.119 DEBUG 26053 --- [o-auto-1-exec-5] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}], &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}, &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} in collection: table_test
+2020-10-10 02:45:56.124 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}, &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}, &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}]} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.126 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}, &quot;field3&quot; : { &quot;$gte&quot; : 2423430.0}, &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0f&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;field1&quot; : { &quot;$regex&quot; : &quot;0F&quot;, &quot;$options&quot; : &quot;&quot;}}]} in collection: table_test
+2020-10-10 02:45:56.133 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.134 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.135 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.136 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.138 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.139 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.140 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.142 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.143 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.144 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.145 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.147 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.148 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.149 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.150 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.151 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.152 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.153 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.154 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.155 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.157 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.158 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.159 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.160 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.161 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.162 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.163 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.164 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.165 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.166 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.168 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.169 DEBUG 26053 --- [o-auto-1-exec-6] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} in collection: table_test
+2020-10-10 02:45:56.173 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.175 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;field6&quot; : { &quot;$gte&quot; : { &quot;$date&quot; : 1602204356000}}} in collection: table_test
+2020-10-10 02:45:56.180 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.181 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.182 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.183 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.184 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.187 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.188 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.189 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.191 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.192 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.193 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.194 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.195 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.196 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.197 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.198 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.200 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.201 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.202 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.203 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.204 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.206 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.207 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.208 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.209 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.210 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.211 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.212 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.213 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.214 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.216 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : Executing count: {} in collection: table_test
+2020-10-10 02:45:56.216 DEBUG 26053 --- [o-auto-1-exec-7] o.s.data.mongodb.core.MongoTemplate      : find using query: {} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.220 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: {} in collection: table_test
+2020-10-10 02:45:56.221 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: {} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.227 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.228 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.229 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.230 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.231 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.232 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.233 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.234 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.235 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.236 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.237 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.238 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.241 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.243 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.244 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.245 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.246 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.247 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.248 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.249 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.250 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.250 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.251 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.252 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.253 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.254 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.255 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.256 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.257 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.258 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : Saving Document containing fields: [_id, field1, field2, field3, field4, field5, field6, _class]
+2020-10-10 02:45:56.260 DEBUG 26053 --- [o-auto-1-exec-8] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;ID0&quot;, &quot;$options&quot; : &quot;&quot;}}]} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.264 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : find using query: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;ID0&quot;, &quot;$options&quot; : &quot;&quot;}}]} fields: Document{{}} for class: class org.rjansen.mongo.repository.MongoTable in collection: table_test
+2020-10-10 02:45:56.266 DEBUG 26053 --- [    Test worker] o.s.data.mongodb.core.MongoTemplate      : Executing count: { &quot;$or&quot; : [{ &quot;$or&quot; : [{ &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;id0&quot;, &quot;$options&quot; : &quot;&quot;}}]}, { &quot;_id&quot; : { &quot;$regex&quot; : &quot;ID0&quot;, &quot;$options&quot; : &quot;&quot;}}]} in collection: table_test
+</pre>
+</span>
+</div>
+</div>
+<div id="footer">
+<p>
+<div>
+<label class="hidden" id="label-for-line-wrapping-toggle" for="line-wrapping-toggle">Wrap lines
+<input id="line-wrapping-toggle" type="checkbox" autocomplete="off"/>
+</label>
+</div>Generated by 
+<a href="http://www.gradle.org">Gradle 5.2.1</a> at Oct 10, 2020, 2:45:56 AM</p>
+</div>
+</div>
+</body>
+</html>
