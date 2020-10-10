@@ -5,7 +5,8 @@ In this repository you will see:
  - The dynamic queries are built with custom filters and QueryDsl libraries to integrate it with MongoJpa.
  
 #### Hints of where to find the honey
-  - Take a look on the [QMongoTable]()
+  - Query stuff take a look on the [QMongoTable](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/main/java/org/rjansen/mongo/repository/QMongoTable.java) and [RepoImpl](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/main/java/org/rjansen/mongo/repository/MongoTableRepositoryImpl.java)
+  - For the Component/Integration/Functional tests take a look on the [MongoComponentTest](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/test/java/MongoComponentTest.java)
 ## Stack used for the example
  - Springboot 2.2.5
  - MongoDB JPA
