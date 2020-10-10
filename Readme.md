@@ -7,7 +7,7 @@ In this repository you will see:
 #### Hints of where to find the honey
   - Query stuff take a look on the [QMongoTable](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/main/java/org/rjansen/mongo/repository/QMongoTable.java) and [RepoImpl](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/main/java/org/rjansen/mongo/repository/MongoTableRepositoryImpl.java)
   - For the Component/Integration/Functional tests take a look on the [MongoComponentTest](https://github.com/RJansenGomez/Springboot-Mongo-example/blob/main/src/test/java/MongoComponentTest.java)
-  - Custom url query filters here [MongoComponentTest](https://github.com/RJansenGomez/Springboot-Mongo-example/tree/main/src/main/java/org/rjansen/common/repository)
+  - Custom url query filters here [QueryFilters](https://github.com/RJansenGomez/Springboot-Mongo-example/tree/main/src/main/java/org/rjansen/common/repository)
 ## Stack used for the example
  - Springboot 2.2.5
  - MongoDB JPA
